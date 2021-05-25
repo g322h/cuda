@@ -108,3 +108,65 @@
 }
 
 // end services
+
+// start team 
+
+.team {
+    background-color: #e7f1f8;
+    &__inner {
+        padding: 110px 30px;
+    }
+    &__name {
+        text-align: center;
+        &-text {
+            margin-bottom: 77px;
+        }
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        max-width: 200px;
+        text-align: center;
+        &-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 39px;
+        }
+        &-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #27283d;
+            margin-bottom: 10px;
+        }
+        &-role {
+            font-size: 16px;
+            color: #30bae7;
+            margin-bottom: 25px;
+        }
+        &-text {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 34px;
+        }
+        &-social {
+            img {
+                transform: translate(0px, 7px);
+            }
+            a {
+                background-color: #bdd1df;
+                border-radius: 50%;
+                width: 32px;
+                height: 32px;
+                & + a {
+                    margin-left: 12px;
+                }
+            }
+        }
+    }
+}
+
+// end team 
