@@ -33,3 +33,24 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.title {
+    font-size: 40px;
+    padding-bottom: 14px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 22px;
+    letter-spacing: 4px;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 56px;
+        right: 481px;
+        height: 4px;
+        width: 87px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.149;
+    }
+}
+
+
