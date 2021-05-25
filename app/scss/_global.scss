@@ -18,4 +18,18 @@ li {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #3c4761;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
