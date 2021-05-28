@@ -4,5 +4,5 @@ $(function () {
         $('li').removeClass('active');
         $(this).toggleClass('active');
     });
-    
+
 });
