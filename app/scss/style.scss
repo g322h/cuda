@@ -277,3 +277,147 @@ svg {
 }
 
 // end skills
+
+// start portfolio 
+
+.portfolio {
+    background-color: #ffdd99;
+    color: #393939;
+    &__inner {
+        padding: 115px 0 110px;
+    }
+    &__name {
+        text-align: center;
+        &-text {
+            width: 530px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 26px;
+            margin-bottom: 40px;
+        }
+    }
+    &__content {
+        &-btn {
+            text-align: center;
+            margin-bottom: 62px;
+            button {
+                border: none;
+                padding: 10px 25px;
+                background-color: #ebc985;
+                border-radius: 6px;
+                cursor: pointer;
+                text-transform: uppercase;
+                &.mixitup-control-active {
+                    background-color: #fff;
+                }
+                & + button {
+                    margin-left: 10px;
+                }
+            }
+        }
+        &-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+            .box__item {
+                max-width: 540px;
+                width: 100%;
+                margin-bottom: 62px;
+                &-img {
+                    width: 541px;
+                    height: 311px;
+                    margin-bottom: 30px;
+                }
+                &-text {
+                    text-align: center;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    &__btn {
+        text-align: center;
+        a {
+            border-radius: 6px;
+            padding: 22px 56px 18px;
+            background-color: #17c2a4;
+            color: #ffffff;
+            line-height: 26px;
+            border-bottom: 4px solid #14a58c;
+            font-weight: 300;
+        }
+    }
+}
+
+// end portfolio 
+
+// start about 
+
+.about {
+    background-color: #d74680;
+    color: #ffffff;
+    &__inner {
+        padding: 115px 0;
+    }
+    &__name {
+        text-align: center;
+        &-text {
+            line-height: 26px;
+            margin-bottom: 65px;
+        }
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .content__item {
+            width: 490px;
+            &:nth-child(1),
+                &:nth-child(2) {
+                    margin-bottom: 145px;
+                }
+            &-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: top;
+                .content__item-img {
+                    width: 96px;
+                    height: 96px;
+                    border-radius: 50%;
+                    margin-right: 50px;
+                    display: inline-block;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .content__item-text {
+                    width: 340px;
+                    font-style: italic;
+                    font-size: 21px;
+                    line-height: 31px;
+                    font-weight: 300;
+                    .content__item-author {
+                        font-size: 24px;
+                        line-height: 26px;
+                        font-weight: 700;
+                        font-style: normal;
+                        margin-top: 25px;
+                        text-transform: uppercase;
+                        p {
+                            font-size: 18px;
+                            color: #ffdd99;
+                            font-weight: 400;
+                            text-transform: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// start about 

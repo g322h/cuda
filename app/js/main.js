@@ -5,4 +5,6 @@ $(function () {
         $(this).toggleClass('active');
     });
 
+    var mixer = mixitup('.portfolio__content-box');
+
 });
